@@ -1,6 +1,5 @@
 import time
 import os
-import subprocess
 import requests
 
 def ma_ip():
@@ -9,20 +8,19 @@ def ma_ip():
     return get_ip.text
 
 def change():
-    os.system("service tor reload")
+    os.system("sudo service tor reload")
     print('[+] Your IP has been Changed to : '+str(ma_ip()))
 
-os.system("service tor start")
-
 time.sleep(3)
-print("\033[1;32;40m change your  SOCKES to 127.0.0.1:9050 \n")
-os.system("service tor start")
-x = 300
+print("Change your SOCKES to 127.0.0.1:9050 \n")
+os.system("sudo service tor start")
+x = input("Time in which you want the ip to change(in seconds): ")
 
 while True:
     try:
-        time.sleep(int(x))
         change()
+        time.sleep(int(x))
     except KeyboardInterrupt:
         print("\nClosing Tor")
+        os.system("sudo service tor stop")
         quit()

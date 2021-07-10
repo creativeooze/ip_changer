@@ -39,3 +39,5 @@ You cannot change the proxy settings for chrome directly, so we need to change t
 **4.** Set proxy to manual and set SOCKS Host to 127.0.0.1 and port to 9050, and remove if any other fields are filled.
 
 Now you are good to go.
+
+Anyone who want to help me in building this project can message me on twitter @creativeooze

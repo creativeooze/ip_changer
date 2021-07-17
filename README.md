@@ -5,7 +5,7 @@
 - Linux/Mac Machine (Comming soon for windows :wink:)
 
 ```
-This script can currently be executed only on linux machine, but will be available for windows and mac very soon.
+This script can currently be executed on linux and mac machines, but will be available for windows very soon.
 ```
 
 ## Setup Guidelines

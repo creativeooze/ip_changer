@@ -2,6 +2,7 @@
 
 ## Prerequisites☑
 - Python3
+- Python requests package
 - Linux/Mac Machine (Comming soon for windows :wink:)
 
 ```

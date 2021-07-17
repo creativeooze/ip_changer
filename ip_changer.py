@@ -24,7 +24,7 @@ def darwin():
     os.system("brew services start tor")
     while True:
         try:
-            os.system("brew services reload tor")
+            os.system("brew services restart tor")
             print('[+] Your IP has been Changed')
             time.sleep(int(x))
         except KeyboardInterrupt:

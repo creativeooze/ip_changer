@@ -2,7 +2,7 @@
 
 ## Prerequisites☑
 - Python3
-- Linux Machine
+- Linux/Mac Machine (Comming soon for windows :wink:)
 
 ```
 This script can currently be executed only on linux machine, but will be available for windows and mac very soon.

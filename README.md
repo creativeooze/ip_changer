@@ -8,11 +8,11 @@
 This script can currently be executed only on linux machine, but will be available for windows and mac very soon.
 ```
 
-## Execution Guidelines
+## Setup Guidelines
 
 **First clone [this](https://github.com/creativeooze/ip_changer.git) repository**
 
-Ways of execution can vary for different browsers
+Setup can vary for different browsers
 
 ## For Firefox
 
